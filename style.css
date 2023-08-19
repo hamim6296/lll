@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+.hero {
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.head {
+  background-color: #fae5d3;
+  padding: 9.6rem 0;
+}
+.Rupa {
+  width: 100%;
+  box-shadow: 0 3px 10px rgb(13 0 0 / 0.5);
+}
+.sms {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #555;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+  text-transform: uppercase;
+}
